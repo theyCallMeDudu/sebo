@@ -1,1 +1,96 @@
+#header{
+    width:100%;
+    height:100px;
+    background-color:#000;
+}
+ #conteudo{
+    padding-top: 20px;
+    margin-bottom: 30px;
+    width:100%;
+    height:1000px;
+    background-color:#FFF;  
+}
 
+#conteudo_pt1{
+    padding-left: 25%;
+    padding-right: 25%;
+    width:100%;
+    height:50%;
+    background-color: #FFF;
+}
+
+.container_exibicao{
+    border: 1px dashed grey;
+    /* padding-left: 20%;
+    padding-right: 20%; */
+    display: flex;
+}
+
+.container_img{
+    max-width: 200px;
+    max-height: 300px;
+    width: 100%;
+    height: auto;    
+}
+
+.container_buy{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+#conteudo_pt2{
+    /* padding-bottom: 20px; */
+    width:100%;
+    height:50%;
+    background-color: #000;
+}
+
+#footer{
+    width:100%;
+    height:100px;
+    background-color:#000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#conteudo_footer{
+    width:75%;
+    height: 75%;
+    background-color: #1b1b1b;
+    color: #efefef;
+    list-style: none;
+}
+
+#conteudo_footer ul li{
+    display: inline;
+}
+
+#conteudo_footer ul li a{
+    text-decoration: none;
+    color: #efefef;
+}
+
+#conteudo_footer ul li a:hover{
+    border-bottom: 1px solid #efefef;
+}
+
+.DefaultLink {
+    cursor: pointer;
+    color: #986f38;
+    display: inline-flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    font-size: .875rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.DefaultLink:hover {
+    border-bottom: 1px solid #986f38;
+}
+
+.fa-chevron-left{
+    font-size: 12px;
+}
