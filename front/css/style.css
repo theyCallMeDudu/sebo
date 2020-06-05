@@ -7,43 +7,112 @@
     padding-top: 20px;
     margin-bottom: 30px;
     width:100%;
-    height:1000px;
+    height:1280px;
     background-color:#FFF;  
 }
 
 #conteudo_pt1{
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 20%;
+    padding-right: 20%;
     width:100%;
-    height:50%;
+    height:40%;
     background-color: #FFF;
 }
 
 .container_exibicao{
-    border: 1px dashed grey;
-    /* padding-left: 20%;
-    padding-right: 20%; */
+    margin-top: 30px;
+    /* border: 1px dashed grey; */
     display: flex;
+    padding-left: 10%;
 }
 
 .container_img{
     max-width: 200px;
     max-height: 300px;
-    width: 100%;
-    height: auto;    
+    width: 50%;
+    height: auto;
+    margin-right: 30%;
 }
 
 .container_buy{
-    width: 100%;
-    height: auto;
-    display: flex;
+    width: 50%;
+    padding-top: 5%;
 }
+
+.box-buy{
+    width: 100%;
+}
+
+.titulo{
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: .2em;
+    color: #000;
+    display: block;
+    margin-bottom: -30px;
+}
+
+.autor{
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: .2em;
+    color: #757575;
+    margin-bottom: 50px;
+}
+
+.preco{
+    font-size: 1.12em;
+    letter-spacing: .2em;
+    display: block;
+    color: #3d8705;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.btn-comprar{
+    border: 1px solid #3d8705;
+    background-color: #3d8705;
+    text-align: center;
+    font-size: 13px;
+    color: #FFF;
+    padding: .4em 2.5em;
+    width: 70% !important;
+    height: 38px;
+    border-radius: 3px;
+}
+
+.fa-shopping-bag{
+    font-size: 20px;
+    float: left;
+}
+
+.fa-plus{
+    font-size: 20px;
+    float: right;
+}
+
 
 #conteudo_pt2{
     /* padding-bottom: 20px; */
     width:100%;
-    height:50%;
+    height:60%;
     background-color: #000;
+}
+
+.detalhes_produto{
+    margin-top: 20px;
+    /* border: 1px dashed grey; */
+    padding: 2% 10% 2% 10%;
+    color: #FFF !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+
+.subtitulos_detalhe{
+    font-size: 1rem;
+    margin-bottom: 20px;
+    font-weight: 700;
 }
 
 #footer{
@@ -85,6 +154,7 @@
     font-size: .875rem;
     font-weight: 500;
     text-decoration: none;
+    letter-spacing: .1em;
 }
 
 .DefaultLink:hover {
