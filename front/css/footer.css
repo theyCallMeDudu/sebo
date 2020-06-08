@@ -1,0 +1,93 @@
+
+#footer{
+    width:100%;
+    height:240px;
+    background-color:#000;
+    padding-top: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.img_cards{
+    color: #FFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    font-size: 10pt;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+#conteudo_footer{
+    display: block;
+    width:100%;
+    height: auto;
+    background-color: #1b1b1b;
+    color: #efefef;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#conteudo_footer ul li{
+    display: inline;
+}
+
+#conteudo_footer ul li a{
+    text-decoration: none;
+    color: #efefef;
+}
+
+#conteudo_footer ul li a:hover{
+    border-bottom: 1px solid #efefef;
+}
+
+.footer_bottom{
+    background-color: #000;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #FFF;
+    font-size: 10px;
+}
+
+.social_network{
+    margin-right: 25%;
+}
+
+.social_network ul li{
+    display: inline;
+}
+
+.footer_link{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 10px;
+}
+
+.footer_link:hover{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.page_top{
+    background-color: #FFF;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+    color: #000;
+    font-size: 1em;
+    text-align: center;
+    width: 1em;
+    height: 1em;
+    line-height: 1.4em;
+    vertical-align: middle;
+}
+
+.trademark{
+    margin-left: 30%;
+}
